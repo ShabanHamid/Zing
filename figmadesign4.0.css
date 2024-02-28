@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+nav {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 90px;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #b8b3b3;
+
+}
+
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.active {
+    font-size: 15px;
+    float: right;
+}
+
+.active2 {
+    font-size: 15px;
+    float: right;
+    background-color: #f66b0e;
+    border-radius: 5px;
+}
+
+
+
+
+.logo {
+    float: left;
+    margin: 10px;
+    /* padding-left: 20px; */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.contant h1 {
+    font-size: 96px;
+    text-align: center;
+    line-height: 96px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.contant p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #828282;
+    line-height: 28px;
+}
+
+.contant img {
+    position: absolute;
+    left: 1050px;
+    bottom: 200px;
+}
+
+.image {
+    width: 100%;
+    height: 700px;
+    margin-top: 150px;
+}
+
+.about {
+    padding-left: 60px;
+    padding-top: 40px;
+    /* display: flex; */
+}
+
+.about h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.about p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+
+
+
+
+.eight {
+    display: grid;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.eight2 {
+    display: grid;
+    gap: 20px;
+}
+
+.eight h1 {
+    color: #f66b0e;
+    font-size: 50px;
+}
+
+.eight h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.eight p {
+    font-size: 20px;
+}
+
+.container2 {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+
+.name ul {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+
+.name li {
+    list-style: none;
+    display: inline-block;
+}
+
+.name ul li a {
+    text-decoration: none;
+    color: #828282;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.name .color {
+    color: #f66b0e;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 150px;
+}
+
+.box {
+    width: 270px;
+    height: 400px;
+    background-color: #fff8f1;
+}
+
+
+/* 
+.box img {
+    width: 100%;
+    height: 100%;
+} */
+
+.box h1 {
+    margin-left: 30px;
+
+}
+
+.box h5 {
+    margin-left: 30px;
+}
+
+.box a {
+    color: #f66b0e;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.paper {
+    width: 100%;
+    height: 700px;
+    background-color: #112b3c;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    gap: 90px;
+}
+
+.image3 {
+    position: absolute;
+    margin-top: 370px;
+}
+
+.paper2 h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.paper2 p {
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.paper2 h2 {
+    color: #f66b0e;
+    margin-top: 50px;
+}
+
+.paper2 a {
+    color: #f66b0e;
+    font-size: 50px;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 90px;
+}
+
+
+
+
+
+
+.form h1 {
+    font-size: 64px;
+}
+
+.form p {
+    font-size: 20px;
+    color: #828282;
+    line-height: 32px;
+}
+
+.form .name {
+    width: 247px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.form .email {
+    width: 500px;
+    height: 40px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+ textarea{
+    margin-top: 40px;
+    border: 1px solid black;
+    color: #bdbdbd;
+} 
+textarea::placeholder{
+    color: #bdbdbd;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+input::placeholder {
+    padding-left: 20px;
+    color: #bdbdbd;
+}
+.form button{
+    width: 500px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #f66b0e;
+    color: white;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #FFF8F0;
+    margin-top: 120px;
+}
+.footer .p{
+    text-align: center;
+    margin-top: 50px;
+}
+.ending{
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+.ending p{
+    line-height: 25px;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+Copyright ©2022 Zing Inc. All right reserved.
